@@ -131,5 +131,5 @@ stock GenerateHUD(playerid, slot, const text[], color = 0x0096FFFF)//The number 
 	{
 		PlayerTextDrawShow(playerid, Label[playerid][slot][x]);
 	}
-    return 1;
+    return 1; 
 }
