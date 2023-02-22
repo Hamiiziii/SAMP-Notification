@@ -1,4 +1,4 @@
-//Notification Include V 0.0.1
+//Notification Include V 0.1
 
 //usage ShowNotification(playerid, type, "your text", show_time = default 3 second, HEX Circle colors);
 #define     MAX_SN      10
