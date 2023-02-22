@@ -110,7 +110,7 @@ stock GenerateHUD(playerid, slot, const text[], color = 0x0096FFFF)//The number 
 
 	Label[playerid][slot][6] = CreatePlayerTextDraw(playerid, 372.043029 - ScreenXY[0], 435.970947 - ScreenXY[1], "LD_BEAT:Chit");
 	PlayerTextDrawTextSize(playerid, Label[playerid][slot][6], 5.000000, 5.000000);
-	PlayerTextDrawAlignment(playerid, Label[playerid][slot][6], 1);
+	PlayerTextDrawAlignment(playerid, Label[playerid][slot][6], 1); 
 	PlayerTextDrawColor(playerid, Label[playerid][slot][6], color);
 	PlayerTextDrawSetShadow(playerid, Label[playerid][slot][6], 0);
 	PlayerTextDrawBackgroundColor(playerid, Label[playerid][slot][6], 255);
