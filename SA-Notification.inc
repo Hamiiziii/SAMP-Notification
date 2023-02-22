@@ -20,7 +20,7 @@ stock ShowNotification(playerid, E_NOTIFY_TYPE: type, buffer[], show_time = 3)
 		}
 		case 1://ERROR
 		{
-            GenerateHUD(playerid, slotid, buffer, 0xf26868FF); //
+			GenerateHUD(playerid, slotid, buffer, 0xf26868FF); //
 			SetTimerEx("HideNotification", show_time*1000, false, "ii", playerid, slotid);
 		}
 	}
