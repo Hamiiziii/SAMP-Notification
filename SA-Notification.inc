@@ -7,7 +7,7 @@ new PlayerText: Label[MAX_PLAYERS][MAX_SN][8];
 
 forward HideNotification(playerid, slot);
 
-stock ShowNotification(playerid, E_NOTIFY_TYPE: type, buffer[], show_time = 3)
+stock ShowNotification(playerid, type, buffer[], show_time = 3)
 {
     new slotid = GetFreeSlot(playerid);
 	if (slotid == -1) return ShowNotification(playerid, type, buffer, show_time);
